@@ -12,5 +12,5 @@ chmod +x /usr/local/bin/docker-compose
 
 # copy in systemd unit file and register it so our compose file runs 
 # on system restart
-curl -o /etc/systemd/system/docker-compose-app.service https://raw.githubusercontent.com/mikegcoleman/todo/master/docker-compose-app.service
+curl -o /etc/systemd/system/docker-compose-app.service https://raw.githubusercontent.com/thomasdunn/docker/master/lightsail-docker-setup/docker-compose-app.service
 systemctl enable docker-compose-app
